@@ -1,0 +1,7 @@
+Name,Type,Active,Date,Stopwatch,Created,Frequency,DateReminder,Detail
+dental,Health,yes,2025-02-13,1,2025-02-12,1,2025-03-13,edited dental
+basketball,Others,yes,2025-02-22,10,2025-02-12,1,2025-03-14,Play basketball with friends
+dinner,Family,yes,2025-02-18,6,2025-02-12,1,2025-02-17,Have dinner with family
+report,Work,yes,2025-02-14,2,2025-02-12,1,2025-02-13,Report to boss
+report2,Work,yes,2025-02-22,10,2025-02-12,2,2025-02-13,Report again
+report3,Work,yes,2025-02-27,15,2025-02-12,2,2025-02-13,report 3
