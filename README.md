@@ -13,13 +13,13 @@ To request data from the microservice, you need to send the request into the pip
 file. Once request with proper action, csv file, and other options, is received, the microservice will process the request and parse the data.
 
 Example Request: <br />
-my_request = {
-"action": "run",
-        "csv_file_path": "./data/people.csv",
-        "output_format": "json",
-        "output_path": "./data/people.json",
-        "data": "",
-        "info": ""}
+my_request = { <br />
+        "action": "run",<br />
+        "csv_file_path": "./data/people.csv",<br />
+        "output_format": "json",<br />
+        "output_path": "./data/people.json",<br />
+        "data": "",<br />
+        "info": ""}<br />
         
 request parameters: 
 -action: "run", "done"(after service process)
