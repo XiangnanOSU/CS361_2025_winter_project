@@ -1,0 +1,26 @@
+{
+    "action": "done",
+    "csv_file_path": "./data/people.csv",
+    "output_format": "json",
+    "output_path": "./data/people.json",
+    "data": [
+        {
+            "Name": "Alice",
+            "Age": "20",
+            "City": "New York"
+        },
+        {
+            "Name": "Bob",
+            "Age": "30",
+            "City": "Los Angeles"
+        },
+        {
+            "Name": "Charlie",
+            "Age": "35",
+            "City": "Chicago"
+        }
+    ],
+    "info": [
+        ""
+    ]
+}
