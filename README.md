@@ -14,7 +14,7 @@ file. Once request with proper action, csv file, and other options, is received,
 
 Example Request:
 my_request = {
-        "action": "run",
+"action": "run",
         "csv_file_path": "./data/people.csv",
         "output_format": "json",
         "output_path": "./data/people.json",
