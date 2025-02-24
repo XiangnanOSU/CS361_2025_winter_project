@@ -20,8 +20,9 @@ my_request = { <br />
         "output_path": "./data/people.json",<br />
         "data": "",<br />
         "info": ""}<br />
-        
-request parameters: 
+
+<pre>
+ request parameters: 
 -action: "run", "done"(after service process)
 -csv_file_path: csv file to be parsed
 -data: parsed data
@@ -29,7 +30,9 @@ request parameters:
 
 Besides response from service, user can additionaly request the parsed data is writen into json/txt/csv file
 -output_format: json/txt/csv
--output_path: additional ouput file path
+-output_path: additional ouput file path       
+</pre>        
+
 
 
 ### How to programmatically RECEIVE data
