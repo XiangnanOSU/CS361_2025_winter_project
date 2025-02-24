@@ -12,21 +12,22 @@ Additionally, the microservice can also convert input CSV file into JSON and TXT
 To request data from the microservice, you need to send the request into the pipeline csv_service.json. The microservice listen to this json
 file. Once request with proper action, csv file, and other options, is received, the microservice will process the request and parse the data.
 
-Example Request: <br />
-my_request = { <br />
-        "action": "run",<br />
-        "csv_file_path": "./data/people.csv",<br />
-        "output_format": "json",<br />
-        "output_path": "./data/people.json",<br />
-        "data": "",<br />
-        "info": ""}<br />
+
 
 <pre>
+Example Request:
+my_request = {
+        "action": "run",
+        "csv_file_path": "./data/people.csv",
+        "output_format": "json",
+        "output_path": "./data/people.json",
+        "data": "",
+        "info": ""}
  request parameters: 
--action: "run", "done"(after service process)
--csv_file_path: csv file to be parsed
--data: parsed data
--info: error information. If successfully, info = ""
+        -action: "run", "done"(after service process)
+        -csv_file_path: csv file to be parsed
+        -data: parsed data
+        -info: error information. If successfully, info = ""
 
 Besides response from service, user can additionaly request the parsed data is writen into json/txt/csv file
 -output_format: json/txt/csv
