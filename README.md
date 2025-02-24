@@ -64,4 +64,4 @@ if response["action"] == "done":
 
 
 ### UML sequence diagram
-<img src="./microserviceA/UML.png" />
+<img src="microserviceA/UML.PNG" />
