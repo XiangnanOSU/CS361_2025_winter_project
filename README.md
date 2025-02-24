@@ -12,8 +12,6 @@ Additionally, the microservice can also convert input CSV file into JSON and TXT
 To request data from the microservice, you need to send the request into the pipeline csv_service.json. The microservice listen to this json
 file. Once request with proper action, csv file, and other options, is received, the microservice will process the request and parse the data.
 
-
-
 <pre>
 Example Request:
 my_request = {
@@ -40,6 +38,7 @@ Besides response from service, user can additionaly request the parsed data is w
 The microservice once receive the request, process the request. It will return the parsed data back into pipeline file.
 The request program check the pipeline file and retrieve the data.
 
+<pre>
 Example Receive:
 
 This function help put request into pipeline, and retrieve data from pipeline
@@ -57,7 +56,9 @@ response = request_service(my_request)
 if response["action"] == "done":
     print("...")
     print("Data is received successfully!")
-    print(response["data"])
+    print(response["data"])       
+</pre>
+
 
 
 
