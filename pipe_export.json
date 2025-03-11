@@ -1,0 +1,8 @@
+{
+    "action": "done",
+    "username": "luca",
+    "password": "",
+    "outputfile": "luca_history",
+    "status": "success",
+    "message": "Export events successfully to file: luca_history.txt."
+}

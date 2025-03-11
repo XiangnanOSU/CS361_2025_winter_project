@@ -1,0 +1,20 @@
+{
+    "event": [
+        {
+            "name": "dental2",
+            "type": "Health",
+            "active": "yes",
+            "stopwatch": "2 days, 0:00:00",
+            "date": "2025-03-12",
+            "details": "denstist",
+            "created": "2025-03-10",
+            "frequency": "1",
+            "date_reminder": "2025-05-01"
+        }
+    ],
+    "action": "done",
+    "username": "luca",
+    "password": "",
+    "status": "success",
+    "message": "Add event successfully"
+}
